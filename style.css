@@ -1,0 +1,76 @@
+body {
+  background-color: #010101;
+}
+#mapView {
+  background-color: white;
+  width: 95vw;
+  height: 170vw;
+  position: absolute;
+  left: 2.5vw;
+  border-radius: 15px;
+  top: 4vw;
+}
+
+
+#pingger1 {
+  position: absolute;
+  z-index: 20;
+  bottom: 0vw;
+  left: 41.7vw;
+  transition: left 0.25s;
+}
+#but1 {
+  background-color: transparent;
+  height: 12vw;
+  width: 12vw;
+  /* position: absolute;
+  bottom: 10vw; */
+  border-color: transparent;
+  background-image: url("menu1.svg");
+  background-repeat: no-repeat;
+  filter: invert("100%");
+}
+#but3 {
+  background-color: transparent;
+  height: 12vw;
+  width: 12vw;
+  /* position: absolute;
+  bottom: 10vw; */
+  border-color: transparent;
+  background-image: url("menu2.svg");
+  background-repeat: no-repeat;
+}
+
+#but2 {
+  background-color: transparent;
+  height: 12vw;
+  width: 12vw;
+  /* position: absolute;
+  bottom: 10vw; */
+  border-color: transparent;
+  background-image: url("menu3.svg");
+  background-repeat: no-repeat;
+  filter: invert("100%");
+
+}
+
+#but4 {
+  background-color: transparent;
+  height: 12vw;
+  width: 12vw;
+  /* position: absolute;
+  bottom: 10vw; */
+  border-color: transparent;
+  background-image: url("menu4.svg");
+  background-repeat: no-repeat;
+}
+#but5 {
+  background-color: transparent;
+  height: 12vw;
+  width: 12vw;
+  /* position: absolute;
+  bottom: 10vw; */
+  border-color: transparent;
+  background-image: url("menu5.svg");
+  background-repeat: no-repeat;
+}
